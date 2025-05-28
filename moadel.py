@@ -1,8 +1,8 @@
 from telegram import ReplyKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters, ConversationHandler
-from datetime import datetime
+from datetime import datetime import os
 
-TOKEN = '7881053099:AAGIXu7lmbuTysEhOu0P1PMHvh5RO023ZnQ'
+TOKEN = os.getenv('TOKEN')
 CHANNEL_ID = '-1002566593151'
 FORCE_JOIN_CHANNEL = '@Moadelnahaye'
 
