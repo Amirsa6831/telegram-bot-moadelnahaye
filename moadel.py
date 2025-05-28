@@ -1,6 +1,7 @@
 from telegram import ReplyKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters, ConversationHandler
-from datetime import datetime import os
+from datetime import datetime 
+import os
 
 TOKEN = os.getenv('TOKEN')
 CHANNEL_ID = '-1002566593151'
